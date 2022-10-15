@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Shores University</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/svg" href="images/favicon (1).ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .admBanner {
+        position: relative;
+        max-width: 100%;
+        height: 100%;
+        margin: 0;
+
+    }
+    .admissions {
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 100%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    }
+
+    .admissions h1 {
+        z-index: 1;
+        font-weight: bold;
+        font-style: italic;
+        font-family: "Poppins", sans-serif;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 27%;
+        left: 50%;
+        font-size: 80px;
+    }
+
+    .admissions h1::after {
+        display: block;
+        background-color: white;
+        content: "";
+        width: 30%;
+        z-index: 1;
+        height: 10px;
+        margin-left: 35%;
+    }
+
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .admissions h2 {
+        z-index: 1;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 58%;
+        left: 50%;
+        font-size: 15px;
+    }
+
+    .appStatus {
+        background-color: #CFB991;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 22%;
+        margin-left: 6.5%;
+        margin-top: 3%;
+        border: 2px solid #836f3e;
+        color: black;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+
+    .scholarships,
+    .housing {
+        background-color: #CFB991;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 22%;
+        margin-left: 2%;
+        border: 2px solid #836f3e;
+        color: black;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .appStatus:hover,
+    .scholarships:hover,
+    .housing:hover {
+        background-color: white;
+    }
+
+
+    .quickLinks {
+        background-color: #333333;
+        line-height: 2;
+    }
+
+    .buttonInterface {
+        height: 143.2px;
+        align-items: center;
+    }
+
+    .ugstudents {
+        width: 15%;
+        height: 25%;
+        background-color: #000000;
+        color: white;
+        margin-left: 6.5%;
+        margin-top: 3%;
+        display: inline-block;
+        margin-bottom: 3%;
+        padding: 30px;
+    }
+
+
+    .pgstudents,
+    .internationalStudents,
+    .transferStudents {
+        width: 20%;
+        height: 25%;
+        background-color: #000000;
+        color: white;
+        margin-left: 2%;
+        margin-top: 3%;
+        display: inline-block;
+        margin-bottom: 3%;
+        padding: 30px;
+        width: 15%;
+
+    }
+
+    .ugstudents h2::after,
+    .pgstudents h2::after,
+    .internationalStudents h2::after,
+    .transferStudents h2::after {
+        display: block;
+        background-color: #8e6f3e;
+        content: "";
+        width: 30%;
+        z-index: 1;
+        height: 2px;
+        margin-left: 35%;
+    }
+
+    .ugstudents li,
+    .pgstudents li,
+    .internationalStudents li,
+    .transferStudents li {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+    }
+
+    .ugstudents ul,
+    .pgstudents ul,
+    .internationalStudents ul,
+    .transferStudents ul {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+    }
+
+    .ugs,
+    .intls,
+    .pgs,
+    .trns {
+        text-align: center;
+        color: #ffffff;
+        margin-left: -100px;
+        line-height: 1.25;
+    }
+</style>
+
+<body>
+
+    <div class="promo">
+        <img class="Promo0" src="images\polotno.png" alt="Err">
+        <img class="Promo1" src="images\Promo1.jpg" alt="Err!">
+    </div>
+    <div class="topnav">
+        <a href="aboutus.html">About Us</a>
+        <a href="alumni.html">Alumni</a>
+        <a href="research.html">Research</a>
+        <a href="athletics.html">Athletics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="index.html">Home</a>
+    </div>
+    <div class="container">
+        <div class="admissionBanner">
+            <img class="admBanner" src="images\admission_img.jpg" alt="Err!">
+            <div class="admissions">
+                <h1>ADMISSIONS</h1>
+                <h2>Applying to college is an important step toward your future — and we're here to help. From
+                    admissions requirements and a list of majors to info on housing and financial aid — you'll find it
+                    all here.</h1>
+            </div>
+        </div>
+    </div>
+    <section class="buttonInterface">
+        <a href="#" class="appStatus">APPLICATION STATUS</a>
+        <a href="#" class="scholarships">FRESHMAN SCHOLARSHIPS</a>
+        <a href="#" class="housing">HOUSING</a>
+    </section>
+    <section class="quickLinks">
+        <div class="ugstudents">
+            <ul>
+                <li class="ugs">
+                    <h2>Undergraduate<br>Students</h2>
+                </li>
+                <li>Apply Now</li>
+                <li>Accept my UG Offer</li>
+                <li>Admissions</li>
+                <li>Financial Aid</li>
+                <li>Visit Campus</li>
+                <li>Admitted Students</li>
+                <li>Minors and Majors</li>
+            </ul>
+        </div>
+        <div class="pgstudents">
+            <ul>
+                <li class="pgs">
+                    <h2>Graduate<br>Students</h2>
+                </li>
+                <li>Apply Now</li>
+                <li>Accept my PG Offer</li>
+                <li>PG Degree Programs</li>
+                <li>How to Apply</li>
+                <li>Funding</li>
+                <li>Accepting Admissions</li>
+                <li><br></li>
+            </ul>
+        </div>
+        <div class="internationalStudents">
+            <ul>
+                <li class="intls">
+                    <h2>International<br>Students</h2>
+                </li>
+                <li>Admissions</li>
+                <li>Graduate Admissions</li>
+                <li>International Students</li>
+                <li>Student Visa</li>
+                <li>Admitted Students</li>
+                <li><br></li>
+                <li><br></li>
+            </ul>
+        </div>
+        <div class="transferStudents">
+            <ul>
+                <li class="trns">
+                    <h2>Transfer<br>Students</h2>
+                </li>
+                <li>Apply Now</li>
+                <li>Dates and Deadlines</li>
+                <li>Transfer Credit</li>
+                <li>Majors and Minors</li>
+                <li><br></li>
+                <li><br></li>
+                <li><br></li>
+            </ul>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="communication">
+            <ul>
+                <li>
+                    <h1>Communication</h1>
+                </li>
+                <li>OneCampus Portal</li>
+                <li>BrightSpace</li>
+                <li>BoilerConnect</li>
+                <li>Office 365</li>
+                <li>Outlook</li>
+                <li>myWestShores</li>
+            </ul>
+        </div>
+        <div class="campus">
+            <ul>
+                <li>
+                    <h1>Campus</h1>
+                </li>
+                <li>Faculty and Staff</li>
+                <li>Human Resources</li>
+                <li>Careers</li>
+                <li>Colleges and Schools</li>
+                <li>Directory</li>
+                <li>Campus Map</li>
+            </ul>
+        </div>
+        <div class="information">
+            <ul>
+                <li>
+                    <h1>Information</h1>
+                </li>
+                <li>WestShores Today</li>
+                <li>Calender</li>
+                <li>Libraries</li>
+                <li>Construction</li>
+                <li>Tuition Calculator</li>
+                <li>Center for Healthy Living</li>
+            </ul>
+        </div>
+        <div class="people">
+            <ul>
+                <li>
+                    <h1>People</h1>
+                </li>
+                <li>Speak Up</li>
+                <li>Diversity and Inclusion</li>
+                <li>Ethics and Communication</li>
+                <li>Information Technology</li>
+                <li>Annual Security Report</li>
+                <li>Timely Warnings</li>
+            </ul>
+        </div>
+        <div class="img">
+            <ul>
+                <li>
+                    <h1><img class="img1" src="images\polotno1.png" alt="Err"></h1>
+                </li>
+                <li><i class="fa fa-facebook-square"></i>&ensp;&ensp;
+                    <i class="fa fa-twitter"></i>&ensp;&ensp;
+                    <i class="fa fa-instagram"></i>&ensp;&ensp;
+                    <i class="fa fa-linkedin-square"></i>
+                </li>
+                <li>
+                    <i class="fa fa-snapchat-ghost"></i>&ensp;&ensp;
+                    <i class="fa fa-pinterest"></i>&ensp;&ensp;
+                    <i class="fa fa-youtube"></i>&ensp;&ensp;
+                    <i class="fa fa-google-plus"></i>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="endnote">
+        <p>
+            <i class="fa fa-copyright"></i> 2022 <font class="name"><a href="https://www.linkedin.com/in/prince-moradiya-3371b2227"
+                    target="_blank" rel="noopener">Prince
+                    Moradiya</a> & <a href="https://www.linkedin.com/in/pratham-satani-aa104b217/" target="_blank"
+                    rel="noopener">Pratham
+                    Satani</a>
+            </font>
+        </p>
+    </section>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
